@@ -1,0 +1,101 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.App {
+    min-height: 100vh;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat !important;
+    background-color: #000;
+    background-size: cover !important;
+    color: #fff;
+}
+
+@font-face {
+    font-family: 'Alfphabet';
+    src: url('./assets/Alfphabet-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@keyframes App-Spin-Effect {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-main {
+    color: #fff !important;
+    background-color: #6825e7;
+    border-color: #ba84ff;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 15%), 0 1px 1px rgb(0 0 0 / 8%);
+    background: linear-gradient(90deg, #6825e7, #aa58b8);
+    box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.loadingPage {
+
+    position: absolute;
+    margin: auto;
+    height: 100% !important;
+    width: 100% !important;
+    text-align: center;
+    background: rgba(82, 82, 82, 0.5);
+    top: 0;
+
+    .loadBar {
+        position: relative;
+        top: 50%;
+        opacity: 1 !important;
+       
+    }
+}
+
+// .loadingBigPage  {
+//     height: 100%;
+//     position:absolute;
+//     text-align:center;
+//     width:100%;
+//     background: rgba(82,82,82,.5);
+//  }
+//  .loadingPage {
+//    min-height: calc(100vh - 100px);
+//    text-align: center;
+//    border-radius: 12px;
+//  }
+
+//  .loadingDiv {
+//    position: relative;
+//    top: 50%;
+//    opacity: 1!important;
+//    transform: perspective(1px) translateY(-50%);
+//  }
+
+.btn-main {
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 15%), 0 1px 1px rgb(0 0 0 / 8%);
+    background: linear-gradient(90deg, #6825e7, #aa58b8);
+    box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+    color: #fff !important;
+}
+
+
+.btn-apply {
+    box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+    background: linear-gradient(90deg, #25e7d0, #5893b8);
+    color: #fff !important;
+}
+
+.btn-showInput {
+    box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+    background-color: rgb(18 17 46/0.3);
+    border: none;
+    outline: none;
+    color: #fff !important;
+}

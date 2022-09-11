@@ -1,0 +1,42 @@
+.Game {
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+    .GameTable {
+
+
+        background-image: url("../../assets/table.jpg");
+        background-repeat: no-repeat !important;
+        background-color: #000;
+        margin: auto;
+        background-size: cover !important;
+        color: #fff;
+        height: 487px;
+        width: 759px;
+        border-radius: 44px;
+
+
+        .playerAvatar {
+
+            height: 96px;
+            width: 96px;
+        }
+
+        .jButton {
+
+            background-image: url("../../assets/sitBtn.png");
+            background-repeat: no-repeat !important;
+            background-color: #000;
+            height: 50px;
+            width: 50px;
+
+            &:hover {
+                background-color: yellow;
+            }
+        }
+
+
+
+    }
+}
